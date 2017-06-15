@@ -17,7 +17,27 @@ Add `expand-region.kak` to your autoload dir: `~/.config/kak/autoload/`.
 
 ## Usage
 
-Run the `expand` command. It's mapped to `+` by default.
+Run the `expand` command successively.
+
+```
+# Suggested mapping
+
+map global normal + :expand<ret>
+```
+
+## Related commands
+
+Here are two simple linewise commands that your may also find useful:
+
+```
+def grow-selection %{
+  exec '<a-:>L<a-;>H'
+}
+
+def shrink-selection %{
+  exec '<a-:>H<a-;>L'
+}
+```
 
 ## Licence
 

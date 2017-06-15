@@ -67,4 +67,6 @@ def expand %{
   exp-loop %opt{index}
 }
 
-map global normal + :expand<ret>
+# Suggested mapping
+
+#map global normal + :expand<ret>
