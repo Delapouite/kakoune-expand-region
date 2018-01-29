@@ -39,6 +39,10 @@ def shrink-selection %{
 }
 ```
 
+## See Also
+
+[kakoune-expand](https://github.com/occivink/kakoune-expand): this alternative version made by occivink offers the `:expand-repeat` command.
+
 ## Licence
 
 MIT
