@@ -41,8 +41,9 @@ def shrink-selection %{
 
 ## See Also
 
-[kakoune-expand](https://github.com/occivink/kakoune-expand): this alternative version made by occivink offers the `:expand-repeat` command.
-[kak-tree](https://github.com/ul/kak-tree): use the `tree-select-parent-node` command to traverse the AST.
+- [kakoune-expand](https://github.com/occivink/kakoune-expand): this alternative version made by occivink offers the `:expand-repeat` command.
+- [kak-tree](https://github.com/ul/kak-tree): use the `tree-select-parent-node` command to traverse the AST.
+- [kakoune-grasp](https://github.com/Delapouite/kakoune-grasp/): AST selector specific to JavaScript
 
 ## Licence
 
